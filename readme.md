@@ -1,6 +1,6 @@
 ## General setup
-- rename project folder
-- set up github repo for main project folder
+~~- rename project folder~~
+~~- set up github repo for main project folder~~
 
 ## Client setup
 - cd PROJECT-FOLDER-NAME
