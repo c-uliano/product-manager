@@ -10,11 +10,11 @@ require('./config/mongoose.config');
 // app.use(express.json());
 // app.use(express.urlencoded({ extended: true }));
 // OR
-// app.use(express.json(), express.urlencoded({ extended: true }));
+app.use(express.json(), express.urlencoded({ extended: true }));
 
 // const RenameRoutes = require('./routes/RENAME.routes');
 // RenameRoutes(app);
 // OR
-// require('./routes/RENAME.routes')(app);
+require('./routes/product.routes')(app);
 
 app.listen(port, () => console.log(`Listening on port: ${port}`));
